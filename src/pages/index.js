@@ -22,8 +22,11 @@ const HomePage = () => {
       <Banner />
       <TextBlock
         id="about"
-        title="Developing a new business is never easy, but Startup is here to help"
-        paragraph="With a super-fast Gatsby powered website you have the perfect platform to get your idea off the ground. Its the perfect template to help turn your idea into a reality."
+        title="Our Philosophy is to Improve Your Quality of Life by Managing Your Pain"
+        paragraph="The team at Clinical Pain Consultants, serving the communities of Wauwatosa, Wisconsin, 
+        strives to know each patient’s individual concern and develop a care plan to address those concerns. 
+        We are committed to serving our patients by providing a wide variety of pain management treatment 
+        options to help them resume their lives, pain-free."
       >
         <Link to="perks" smooth={true} duration={500}>
           <Button label="Tell Me More" cta="Tell Me More!" />
@@ -31,10 +34,8 @@ const HomePage = () => {
       </TextBlock>
       <TextBlockImg
         id="perks"
-        title="We have the tools to help you suceed"
-        subtitle="Startup is perfect for helping to to start and grow your business. As
-          you begin to gain new clients and expand you will see the benefits of
-          a super-fast Gatsby website"
+        title="Our Practitioners Will Help You Succeed"
+        subtitle="Each practitioner is qualified to address your pain."
       >
         <div className="flex-container trio-block">
           <Perk
@@ -58,8 +59,8 @@ const HomePage = () => {
         </div>
       </TextBlockImg>
       <Packages
-        title="Our Packages"
-        para="Choose the perfect solution for you. With benefits to suit all budgets Startup can offer amazing value and expert advice"
+        title="Our Process"
+        para="We look at your previous experience and health. Then we come up with a plan for treatment. We see our patients on a monthly basis."
       >
         <IconContext.Provider
           value={{
@@ -68,10 +69,10 @@ const HomePage = () => {
             style: { verticalAlign: "middle", marginRight: "5px" },
           }}
         >
-          <Package title="Standard">
+          <Package title="Background">
             <ul>
               <li>
-                <MdDone />1 User
+                <MdDone />Medical Records
               </li>
               <li>
                 <MdDone />
@@ -90,7 +91,7 @@ const HomePage = () => {
               <Button label="I want this" cta="I want this!" />
             </Link>
           </Package>
-          <Package title="Hyper" active={true}>
+          <Package title="Office Visits" active={true}>
             <ul>
               <li>
                 <MdDone />
@@ -113,7 +114,7 @@ const HomePage = () => {
               <Button label="I want this" cta="I want this!" />
             </Link>
           </Package>
-          <Package title="Super">
+          <Package title="Medication">
             <ul>
               <li>
                 <MdDone />
@@ -140,8 +141,9 @@ const HomePage = () => {
       </Packages>
       <Contact
         id="contact"
-        title="Contact Startup today and see how we can help your business grow"
-        subtitle="Every second counts when you're looking to get your new business started. Drop Startup a message and one of our representatives will be in contact"
+        title="Contact Clinical Pain Consultants today and see how we can work together"
+        subtitle="Appointments are required for every office visit. Drop us a message to inquire about an 
+        appointment or for general questions. No private information, please."
       />
     </>
   )

@@ -46,7 +46,7 @@ const Banner = () => {
             variants={variants}
             transition={{ ease: "easeOut", duration: 0.8, delay: 1 }}
           >
-            It's time to make your business <span>stand out</span>
+            Clinical Pain Consultants, S.C. <span>welcomes you</span>
           </motion.h1>
           <motion.p
             initial="hidden"
@@ -54,8 +54,8 @@ const Banner = () => {
             variants={variants}
             transition={{ ease: "easeOut", duration: 0.8, delay: 1.5 }}
           >
-            Startup is here to help you achieve your business and personal
-            goals, all through a stylish theme
+            We understand that pain affects more than just the physical 
+            presence: it affects the whole person.             
           </motion.p>
           <Link to="about" smooth={true} duration={500}>
             <span className="sr-only">Jump to about</span>

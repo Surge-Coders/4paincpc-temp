@@ -37,14 +37,14 @@ const Footer = ({ Logo }) => {
               </Link>
             )}
             <address>
-              85 Simone Weil Avenue
+              2500 North Mayfair Road
               <br />
-              Watton-at-Stone
+              Suite 300
               <br />
-              SG14 8BL
+              Wauwatosa, WI 53226
             </address>
             <a className="telephone" href="tel:+004407076009211">
-              07076 009 211
+              (414)255-3890
             </a>
           </div>
         ) : null}

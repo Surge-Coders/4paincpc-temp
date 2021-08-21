@@ -9,13 +9,12 @@ const path = require(`path`)
 module.exports = {
   siteMetadata: {
     title: "Startup",
-    titleTemplate: "%s | Helping startups get started",
-    description: "A simple one-page site for new businesses that uses GatsbyJS",
-    siteUrl: "https://thestartup.netlify.com",
-    author: "Morgan Baker",
-    authorSite: "https://www.morganbaker.dev",
+    titleTemplate: "%s | Personalized Pain Management",
+    description: "Clinical Pain Consultants, S.C. temporary web site until custom site is designed.",
+    siteUrl: "https://www.4paincpc.com",
+    author: "SURGE CODERS",
+    authorSite: "https://www.surgecoders.dev",
     image: "/yellow-metal-design-decoration.jpg",
-    twitterUsername: "@twitter",
   },
   plugins: [
     {
