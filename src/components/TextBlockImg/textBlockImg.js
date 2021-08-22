@@ -14,7 +14,7 @@ const TextBlockImg = ({ title, children, subtitle, id }) => {
 `)
   return (
     <BackgroundImage
-      id="perks"
+      id="providers"
       Tag="section"
       fluid={data.file.childImageSharp.gatsbyImageData}
     >

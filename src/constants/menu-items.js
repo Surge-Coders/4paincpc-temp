@@ -8,44 +8,48 @@ export const mainMenuItems = [
     title: "home",
   },
   {
-    path: "/about",
+    path: "/#about",
     title: "about",
   },
   {
-    path: "/packages",
-    title: "packages",
+    path: "/#providers",
+    title: "providers",
   },
   {
-    path: "/contact",
+    path: "/#services",
+    title: "services",
+  },
+  {
+    path: "/#contact",
     title: "contact",
   },
 ]
 
 export const socialMenuItems = [
-  {
-    icon: <FaLinkedin />,
-    url: "https://www.linkedin.com/in/morgan-baker-developer-inverness",
-    name: "LinkedIn",
-  },
-  {
-    icon: <FaTwitter />,
-    url: "https://www.twitter.com",
-    name: "Twitter",
-  },
-  {
-    icon: <DiGithubBadge />,
-    url: "https://github.com/bagseye",
-    name: "GitHub",
-  },
+  // {
+  //   icon: <FaLinkedin />,
+  //   url: "https://www.linkedin.com/in/morgan-baker-developer-inverness",
+  //   name: "LinkedIn",
+  // },
+  // {
+  //   icon: <FaTwitter />,
+  //   url: "https://www.twitter.com",
+  //   name: "Twitter",
+  // },
+  // {
+  //   icon: <DiGithubBadge />,
+  //   url: "https://github.com/bagseye",
+  //   name: "GitHub",
+  // },
 ]
 
 export const footerMenuItems = [
-  {
-    path: "/privacy",
-    title: "privacy",
-  },
-  {
-    path: "/cookies",
-    title: "cookies",
-  },
+  // {
+  //   path: "/privacy",
+  //   title: "privacy",
+  // },
+  // {
+  //   path: "/cookies",
+  //   title: "cookies",
+  // },
 ]

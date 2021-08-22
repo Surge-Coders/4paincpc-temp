@@ -8,12 +8,12 @@ const path = require(`path`)
 
 module.exports = {
   siteMetadata: {
-    title: "Startup",
+    title: "CPC",
     titleTemplate: "%s | Personalized Pain Management",
     description: "Clinical Pain Consultants, S.C. temporary web site until custom site is designed.",
     siteUrl: "https://www.4paincpc.com",
-    author: "SURGE CODERS",
-    authorSite: "https://www.surgecoders.dev",
+    author: "Unchained Code",
+    authorSite: "http://www.unchainedcode.com",
     image: "/yellow-metal-design-decoration.jpg",
   },
   plugins: [

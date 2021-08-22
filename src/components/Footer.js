@@ -43,14 +43,40 @@ const Footer = ({ Logo }) => {
               <br />
               Wauwatosa, WI 53226
             </address>
-            <a className="telephone" href="tel:+004407076009211">
-              (414)255-3890
+            <a className="telephone" href="tel:+14142553890">
+            Appointments: (414)255-3890 
+            </a>
+            <a className="telephone" href="tel:+14148005359">
+             General inquiries: (414)800-5359
             </a>
           </div>
         ) : null}
 
         {mainMenuItems || socialMenuItems || footerMenuItems ? (
           <div className="menus-cont">
+          
+            
+            <ul className="footer-menu">
+              <li>Monday: 8:30 am - 5:00 pm</li>
+              <li>Tuesday: 8:30 am - 5:00 pm</li>
+              <li>Wednesday: 8:30 am - 5:00 pm</li>
+              <li>Thursday: 8:30 am - 5:00 pm</li>
+              <li>Friday: closed</li>
+              <li>Saturday: closed</li>
+              <li>Sunday: closed</li>
+
+            </ul>
+            {/* If footer menu items are being imported, render this */}
+            {footerMenuItems && (
+              <ul className="footer-menu">
+                {footerMenuItems.map((item, index) => (
+                  <li key={`footerMenuItem${index}`}>
+                    <Link to={item.path}>{item.title}</Link>
+                  </li>
+                ))}
+              </ul>
+            )}
+
             {/* If main menu items are being imported, render this */}
             {mainMenuItems && (
               <ul className="footer-menu">
@@ -67,16 +93,7 @@ const Footer = ({ Logo }) => {
               </ul>
             )}
 
-            {/* If footer menu items are being imported, render this */}
-            {footerMenuItems && (
-              <ul className="footer-menu">
-                {footerMenuItems.map((item, index) => (
-                  <li key={`footerMenuItem${index}`}>
-                    <Link to={item.path}>{item.title}</Link>
-                  </li>
-                ))}
-              </ul>
-            )}
+            
 
             {/* If social menu items are being imported, render this */}
             {socialMenuItems && (
@@ -206,7 +223,7 @@ const FooterStyles = styled.footer`
     }
 
     img {
-      max-width: 125px;
+      max-width: 225px;
       width: 100%;
     }
   }

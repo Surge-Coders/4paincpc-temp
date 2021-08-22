@@ -37,7 +37,7 @@ const Perk = ({ img, alt, title, content }) => {
 
 const PerkWrapper = styled.article`
   padding: 1rem;
-  max-width: 260px;
+  max-width: 300px;
   margin: 0 auto;
 
   img {

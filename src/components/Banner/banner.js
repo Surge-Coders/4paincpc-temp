@@ -12,7 +12,7 @@ const Banner = () => {
   const { placeholderImage } = useStaticQuery(
     graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "flames.jpg" }) {
+        placeholderImage: file(relativePath: { eq: "check-in-for-appointment.jpg" }) {
           childImageSharp {
             gatsbyImageData(quality: 90, width: 1920, formats: [AUTO, WEBP])
           }
@@ -46,7 +46,7 @@ const Banner = () => {
             variants={variants}
             transition={{ ease: "easeOut", duration: 0.8, delay: 1 }}
           >
-            Clinical Pain Consultants, S.C. <span>welcomes you</span>
+            Clinical Pain Consultants <span>welcomes you</span>
           </motion.h1>
           <motion.p
             initial="hidden"

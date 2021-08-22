@@ -60,7 +60,7 @@ export const NavStyles = styled.nav`
       }
 
       @media (min-width: 1200px) {
-        width: 120px;
+        width: 220px;
       }
     }
   }

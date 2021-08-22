@@ -5,7 +5,11 @@ export const mainMenuItems = [
   },
   {
     path: "/",
-    text: "packages",
+    text: "providers",
+  },
+  {
+    path: "/",
+    text: "services",
   },
   {
     path: "/",
